@@ -49,7 +49,7 @@ export function IntegrationsSection() {
         </AnimateOnScroll>
 
         <AnimateOnScroll delay={200}>
-          <div className="mt-8 rounded-2xl border border-border bg-background/60 px-6 py-8">
+          <div className="mt-8">
             <div className="integration-marquee">
               <div className="integration-marquee__track">
                 {[...integrationLogos, ...integrationLogos].map((logo, index) => (

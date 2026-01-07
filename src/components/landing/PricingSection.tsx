@@ -133,7 +133,7 @@ export function PricingSection() {
               <Button 
                 variant="success" 
                 size="xl"
-                className="shadow-lg hover:shadow-xl"
+                className="shadow-lg hover:shadow-xl ring-2 ring-white/20 w-full sm:w-auto"
                 onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
               >
                 <MessageCircle className="w-5 h-5" />
