@@ -115,7 +115,7 @@ export function PricingSection() {
             <div className="flex flex-col items-center text-center gap-4">
               <Shield className="w-10 h-10 flex-shrink-0 text-white" />
               <div>
-                <p className="font-bold text-xl mb-2 text-white">🛡️ Garantia Incondicional de 30 Dias</p>
+                <p className="font-bold text-xl mb-2 text-white">Garantia Incondicional de 30 Dias</p>
                 <p className="text-lg text-white">Use o sistema por 30 dias completos. Se ele não recuperar mais dinheiro do que o valor da mensalidade, você recebe 100% do seu investimento de volta. Sem perguntas, sem burocracia. O risco é TODO meu.</p>
               </div>
             </div>
