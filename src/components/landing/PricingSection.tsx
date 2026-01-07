@@ -129,7 +129,7 @@ export function PricingSection() {
             </p>
             
             <div className="pt-8 border-t border-white/20">
-              <p className="text-lg mb-4 text-secondary-foreground">Ainda com dúvidas? Fale com um especialista:</p>
+              <p className="text-lg mb-4 text-secondary-foreground">Ainda com dúvidas? </p>
               <Button 
                 variant="success" 
                 size="xl"
