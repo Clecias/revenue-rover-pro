@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "É difícil de configurar?",
-    a: "Não! Nossa equipe faz uma sessão de implementação guiada com você. Em menos de 1 hora está tudo funcionando."
+    a: "Não! Temos um painel super simples que facilita a conexão da sua loja. Em menos de 1 hora tudo estará funcionando."
   },
   {
     q: "Posso cancelar quando quiser?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "E se não funcionar para mim?",
-    a: "Garantia de 30 dias. Se não recuperar pelo menos R$ 119 em vendas, devolvemos 100% do seu dinheiro. Simples assim."
+    a: "Garantia de 30 dias. Se você usar a plataforma e não recuperar pelo menos R$ 119 em vendas, devolvemos 100% do seu dinheiro. Simples assim."
   }
 ];
 
