@@ -11,6 +11,7 @@
     "seo:generate": "node scripts/generate-seo-assets.mjs",
     "seo:verify": "node scripts/seo-verify.mjs",
     "seo:serve": "node scripts/seo-server.mjs",
+    "logos:fetch": "node scripts/fetch-integration-logos.mjs",
     "prebuild": "npm run seo:verify && npm run seo:generate",
     "preview": "vite preview"
   },
