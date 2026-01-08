@@ -131,7 +131,7 @@ export function PricingSection() {
             <div className="pt-8 border-t border-white/20">
               <p className="text-base mb-4 text-secondary-foreground">Ainda com dúvidas? </p>
               <Button
-                variant="success"
+                variant="whatsapp"
                 size="xl"
                 className="
                   w-full sm:w-auto

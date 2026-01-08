@@ -18,6 +18,7 @@ const buttonVariants = cva(
         hero: "bg-background text-primary font-bold hover:bg-background/90 shadow-lg hover:shadow-xl",
         heroBorder: "bg-transparent border-2 border-background text-background font-bold hover:bg-background/10",
         success: "bg-success text-success-foreground font-bold hover:bg-success/90",
+        whatsapp: "bg-[#25D366] text-white font-bold hover:bg-[#1fb85a]",
         cta: "bg-gradient-to-r from-primary to-accent text-primary-foreground font-bold hover:shadow-xl",
       },
       size: {
