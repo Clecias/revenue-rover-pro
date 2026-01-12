@@ -60,9 +60,12 @@ export function SolutionSection() {
               text-sm sm:text-base
               whitespace-normal
             "
+            asChild
           >
-            Quero Começar a Recuperar Vendas Hoje
-            <ArrowRight className="w-6 h-6" />
+            <a href="https://www.unicodrop.com.br/app/?t=cadastrar">
+              Quero Começar a Recuperar Vendas Hoje
+              <ArrowRight className="w-6 h-6" />
+            </a>
           </Button>
         </AnimateOnScroll>
       </div>

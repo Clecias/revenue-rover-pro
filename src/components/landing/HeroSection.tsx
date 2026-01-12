@@ -27,9 +27,11 @@ export function HeroSection({ onShowVideo }: HeroSectionProps) {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <Button variant="hero" size="xl" className="w-full sm:w-auto whitespace-normal">
-              Quero Recuperar Minhas Vendas Agora
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="hero" size="xl" className="w-full sm:w-auto whitespace-normal" asChild>
+              <a href="https://www.unicodrop.com.br/app/?t=cadastrar">
+                Quero Recuperar Minhas Vendas Agora
+                <ArrowRight className="w-5 h-5" />
+              </a>
             </Button>
             <Button 
               onClick={onShowVideo}

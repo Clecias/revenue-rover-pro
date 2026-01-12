@@ -6,6 +6,7 @@ const plans = [
   {
     name: "Growth",
     price: "119,90",
+    ctaUrl: "https://www.unicodrop.com.br/app/?t=cadastrar",
     features: [
       "Dashboard financeiro",
       "Automação de WhatsApp ilimitada (1 número conectado)",
@@ -24,6 +25,7 @@ const plans = [
   {
     name: "Scale",
     price: "169,90",
+    ctaUrl: "https://www.unicodrop.com.br/app/?t=cadastrar&plano=2",
     popular: true,
     features: [
       "Tudo do plano Growth",
@@ -41,6 +43,7 @@ const plans = [
   {
     name: "Elite",
     price: "289,90",
+    ctaUrl: "https://www.unicodrop.com.br/app/?t=cadastrar&plano=3",
     features: [
       "Tudo do plano Scale",
       "Automação de WhatsApp ilimitada (4 números conectados)",
@@ -101,9 +104,12 @@ export function PricingSection() {
                   variant={plan.popular ? "hero" : "outline"} 
                   size="lg" 
                   className="w-full"
+                  asChild
                 >
-                  Começar Agora
-                  <ArrowRight className="w-5 h-5" />
+                  <a href={plan.ctaUrl}>
+                    Começar Agora
+                    <ArrowRight className="w-5 h-5" />
+                  </a>
                 </Button>
               </div>
             </AnimateOnScroll>
@@ -115,8 +121,8 @@ export function PricingSection() {
             <div className="flex flex-col items-center text-center gap-4">
               <Shield className="w-10 h-10 flex-shrink-0 text-white" />
               <div>
-                <p className="font-bold text-xl mb-2 text-white">Garantia Incondicional de 30 Dias</p>
-                <p className="text-lg text-white">Use o sistema por 30 dias completos. Se ele não recuperar mais dinheiro do que o valor da mensalidade, você recebe 100% do seu investimento de volta. Sem perguntas, sem burocracia. O risco é TODO meu.</p>
+              <p className="font-bold text-base mb-2 text-white">Garantia Incondicional de 30 Dias</p>
+                <p className="text-base text-white">Use o sistema por 30 dias completos. Se ele não recuperar mais dinheiro do que o valor da mensalidade, você recebe 100% do seu investimento de volta. Sem perguntas, sem burocracia. O risco é TODO meu.</p>
               </div>
             </div>
           </div>
@@ -141,12 +147,12 @@ export function PricingSection() {
                   text-sm sm:text-base
                   whitespace-normal
                 "
-                onClick={() =>
-                  window.open('https://wa.me/5511999999999', '_blank', 'noopener,noreferrer')
-                }
+                asChild
               >
-                <MessageCircle className="w-5 h-5 shrink-0" />
-                <span className="leading-tight">Falar com Especialista no WhatsApp</span>
+                <a href="https://wa.me/5511945109907" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="w-5 h-5 shrink-0" />
+                  <span className="leading-tight">Falar com Especialista no WhatsApp</span>
+                </a>
               </Button>
             </div>
           </div>

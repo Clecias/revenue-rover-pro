@@ -85,8 +85,10 @@ export function PainPointsSection() {
               <p className="text-base text-foreground mb-4">
                 Por mês. Todos os meses.
               </p>
-              <Button variant="cta" size="xl" className="w-full sm:w-auto">
-                Não Quero Perder Mais Dinheiro
+              <Button variant="cta" size="xl" className="w-full sm:w-auto" asChild>
+                <a href="https://www.unicodrop.com.br/app/?t=cadastrar">
+                  Não Quero Perder Mais Dinheiro
+                </a>
               </Button>
             </div>
           </div>

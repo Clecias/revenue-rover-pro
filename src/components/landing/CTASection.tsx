@@ -25,9 +25,12 @@ export function CTASection() {
               text-sm sm:text-base
               whitespace-normal
             "
+            asChild
           >
-            Quero Parar de Perder Vendas Agora
-            <ArrowRight className="w-7 h-7" />
+            <a href="https://www.unicodrop.com.br/app/?t=cadastrar">
+              Quero Parar de Perder Vendas Agora
+              <ArrowRight className="w-7 h-7" />
+            </a>
           </Button>
           <p className="text-sm text-muted-foreground">
             Mais de 28 mil lojas já estão recuperando vendas. Seja a próxima.
