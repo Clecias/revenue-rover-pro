@@ -32,8 +32,8 @@ const Index = () => {
         <HeroSection onShowVideo={() => setShowVideo(true)} />
         <PainPointsSection />
         <SolutionSection />
-        <TestimonialsSection />
         <PricingSection />
+        <TestimonialsSection />
         <IntegrationsSection />
         <FAQSection />
         <CTASection />
