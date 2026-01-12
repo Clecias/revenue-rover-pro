@@ -4,7 +4,7 @@ import { AnimateOnScroll } from '@/components/ui/animate-on-scroll';
 
 export function CTASection() {
   return (
-    <section className="py-16 px-4 sm:px-6 bg-slate-50">
+    <section className="py-16 px-4 sm:px-6 bg-card">
       <div className="max-w-3xl mx-auto text-center">
         <AnimateOnScroll>
           <h2 className="text-xl md:text-2xl font-bold mb-6 text-foreground">

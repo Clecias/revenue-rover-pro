@@ -60,14 +60,14 @@ const plans = [
 
 export function PricingSection() {
   return (
-    <section className="py-16 px-4 sm:px-6 bg-slate-50">
+    <section className="py-16 px-4 sm:px-6 bg-secondary">
       <div className="max-w-6xl mx-auto">
         <AnimateOnScroll>
           <div className="text-center mb-12">
-            <h2 className="text-xl md:text-2xl font-bold mb-4 text-foreground">
+            <h2 className="text-xl md:text-2xl font-bold mb-4 text-secondary-foreground">
               Escolha o Plano Ideal Para Sua Loja
             </h2>
-            <p className="text-base text-muted-foreground">
+            <p className="text-base text-secondary-foreground/90">
               Comece a recuperar vendas hoje mesmo
             </p>
           </div>
@@ -87,11 +87,11 @@ export function PricingSection() {
                   </div>
                 )}
                 <div className="text-center mb-6">
-                  <h3 className="text-lg font-bold mb-2 text-foreground">{plan.name}</h3>
+                  <h3 className="text-lg font-bold mb-2 text-secondary-foreground">{plan.name}</h3>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-sm text-muted-foreground">R$</span>
-                    <span className="text-lg font-black text-foreground">{plan.price}</span>
-                    <span className="text-muted-foreground">/mês</span>
+                    <span className="text-sm text-secondary-foreground/80">R$</span>
+                    <span className="text-lg font-black text-secondary-foreground">{plan.price}</span>
+                    <span className="text-secondary-foreground/80">/mês</span>
                   </div>
                 </div>
                 
@@ -138,8 +138,8 @@ export function PricingSection() {
               ✓ Ativação imediata • ✓ Cancele quando quiser • ✓ Suporte em português
             </p>
 
-            <div className="pt-8 border-t border-border">
-              <p className="text-base mb-4 text-foreground">Ainda com dúvidas? </p>
+            <div className="pt-8 border-t border-white/20">
+              <p className="text-base mb-4 text-secondary-foreground">Ainda com dúvidas? </p>
               <Button
                 variant="whatsapp"
                 size="xl"

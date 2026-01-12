@@ -202,7 +202,7 @@ function IntegrationLogo({ name, localLogoPath, fallbackLogoUrl }: { name: strin
 
 export function IntegrationsSection() {
   return (
-    <section className="py-16 px-4 sm:px-6 bg-slate-50">
+    <section className="py-16 px-4 sm:px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <AnimateOnScroll>
           <div className="text-center mb-12">
